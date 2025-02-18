@@ -1,0 +1,17 @@
+pip install -r
+numpy
+opencv-python
+tensorflow
+scikit-learn
+argparse
+
+If you used a GPU version of TensorFlow, replace tensorflow with tensorflow-gpu.
+
+Please replace your path as per below.
+for train.py file: 
+	data_dir = rf"D:\Dataset Training"  -- replace your actual file path where you download training dataset.
+
+for predict.py file: 
+	data_dir = rf"captcha_image = r"D:\Dataset Testing\2b827.png""  -- replace your actual file path where you download predict dataset.
+
+  
